@@ -1,0 +1,58 @@
+body{
+  background-image: url(../Images/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+/* EDITAR*/
+#volver{
+  width: 10%;
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+label {
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+select{
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  width: 50%;
+  background-color: salmon;
+  color: white;
+  border: 1px solid salmon;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+button:hover{
+  background-color: white;
+  color: black;
+  transition: 0.7s;
+}

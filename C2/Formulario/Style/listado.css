@@ -1,0 +1,56 @@
+body{
+    background-image: url(../Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: fit-content;
+    border-radius: 5px;
+}
+table {
+    width: 50%; 
+    border-collapse: collapse;
+    margin: 100px auto; 
+    
+}
+th {
+    background-color: salmon;
+    color: white;
+    border: 1px solid #dddddd; 
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #dddddd; 
+    background-color: black;
+    color: white;
+    text-align: center; 
+    padding: 8px;
+}
+#acciones img{
+    width: 20px;
+    height: 20px;
+    margin: 0 20px;
+    border: 1px solid white;
+}
+button{
+    padding: 10px 15px;
+    width: 15%;
+    background-color: salmon;
+    color: white;
+    border: 1px solid salmon;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+  }
